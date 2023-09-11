@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 31);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    background-color: rgb(3, 3, 46);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    font-size: 1.05rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(64, 54, 173);
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+.first > div{
+    width: 30%;
+}
+
+.left{
+    font-size: 2.5rem;
+    width: 30%;
+}
+
+.right img{
+    width: 100%;
+    margin: 50px 0;
+    border-radius: 2%;
+}
+
+.purple{
+    color: rgb(152, 103, 198)
+}
+
+#element{
+    color: rgb(203, 203, 224);
+}
+
+/* .second{
+    display: flex;
+}
+
+.second img{
+    width: 400px;
+    padding-left: 30%;
+}
+
+.second h2{
+    font-size: 2rem;
+}
+
+.sleft{
+    width: 130vw;
+}
+
+.sright{
+    width: 100vw;
+}
+.sright p{
+    font-size: 1rem;
+} */
+
+
+.second{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+/* .second > div{
+    width: 30%;
+} */
+
+.sleft{
+    width: 30%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.sleft img{
+    width: 100%;
+    height: 80%;
+    border-radius: 3%;
+}
+
+.sright{
+    width: 50%;
+    margin-top: 2%;
+}
+
+.sright h2{
+    font-size: 2.5rem;
+}
+.sright p{
+    font-size: 1.1rem;
+    margin-bottom: 3%;
+}
+.sright ul{
+    list-style: none;
+}
+
+.srightchild ul{
+    display: flex;
+}
+.srightchild ul li{
+    margin-right: 10%;
+}
+.top{
+    cursor: pointer;
+    margin-bottom: 3%;
+}
+
+.srightchild div ul{
+    display: flex;
+    flex-direction: column;
+}
+.srightchild div ul li{
+    margin-bottom: 1.5%;
+}
+.skills{
+    color: rgb(43, 128, 213);
+}
+.top{
+    font-size: 1.2rem;
+}
+
+
+.myworks{
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.myworks h2{
+    font-size: 2rem;
+}
+
+.card-container{
+    display: flex;
+    /* justify-content: space-baretween; */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.card1{
+    height: fit-content;
+    border-radius: 10px;
+    padding: 1.5%;
+    background-color: rgb(6, 6, 46);
+    margin-right: 5%;
+}
+
+.card1 img{
+    width: 66%;
+    position: relative;
+    left: 18%;
+    margin-top: 10px;
+    /* z-index: 0; */
+    opacity: 30%;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+.card1 p{
+    z-index: 1;
+    position: relative;
+    margin-top: -220px;
+    font-size: 1.1rem;
+    opacity: 85%;
+    margin-bottom: 10px;
+}
+
+
+.card2{
+    height: fit-content;
+    border-radius: 10px;
+    padding: 1.5%;
+    background-color: rgb(6, 6, 46);
+    margin-right: 5%;
+}
+
+.card2 img{
+    width: 66%;
+    position: relative;
+    left: 18%;
+    margin-top: 10px;
+    /* z-index: 0; */
+    opacity: 30%;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+.card2 p{
+    z-index: 1;
+    position: relative;
+    margin-top: -220px;
+    font-size: 1.1rem;
+    opacity: 85%;
+    margin-bottom: 10px;
+}
+
+
+.card3{
+    height: fit-content;
+    border-radius: 10px;
+    padding: 1.5%;
+    background-color: rgb(6, 6, 46);
+    margin-right: 5%;
+}
+
+.card3 img{
+    width: 66%;
+    position: relative;
+    left: 18%;
+    margin-top: 10px;
+    opacity: 30%;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+.card3 p{
+    z-index: 1;
+    position: relative;
+    margin-top: -220px;
+    font-size: 1.1rem;
+    opacity: 85%;
+    margin-bottom: 10px;
+}
+
+.see{
+    background: rgb(255, 255, 255);
+    opacity: 25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    left: 30%;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+.see:hover{
+    background: rgb(169, 167, 183);
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.5);
+}
+
+.third{
+    margin-bottom: 10%;
+}
+
+.fourth{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fleft h1{
+    font-size: 3rem;
+    margin-bottom: 15%;
+}
+
+.fleft p{
+    margin-bottom: 15%;
+}
+
+.resume{
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(24, 24, 87);
+    color: white;
+    font-size: 0.9rem;
+    margin-bottom: 10%;
+}
+.resume a{
+    text-decoration: none;
+}
+.resume:hover{
+    cursor: pointer;
+    background-color: rgb(23, 23, 151);
+    box-shadow: 0px 0px 15px 0px rgba(25, 0, 249, 0.5);
+}
+
+.fright{
+    padding: 5%;
+}
+.fright input{
+    margin-bottom: 5%;
+    height: 60px;
+    width: 350px;
+    border-radius: 8px;
+    border: 2px solid black;
+    background: white;
+    opacity: 30%;
+}
+.fright input::placeholder{
+    color: black;
+    position: relative;
+    left: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.fright button{
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(43, 43, 162);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+.fright button:hover{
+    background-color: rgb(15, 15, 197);
+}
+
+.fa{
+    font-size: 2.5rem;
+    margin-right: 5%;
+}
+.fa-linkedin{
+    color: #0072b1;
+}
+.fa-instagram{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-twitter{
+    color: #1D9BF0;
+}
+
+footer{
+    background-color: #111111;
+    text-align: center;
+    padding: 2%;
+}
